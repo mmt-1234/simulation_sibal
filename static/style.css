@@ -1,0 +1,101 @@
+/* 기본 스타일 */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+
+/* 메인 컨텐츠 */
+main {
+    padding: 20px;
+}
+
+.todo-list,
+.calendar {
+    width: 48%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px rgb(111, 111, 111);
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+/* 투두리스트 스타일 */
+#todo-input {
+    width: calc(100% - 100px);
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 16px;
+
+}
+
+#add-todo-btn {
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+ul#todo-items {
+    list-style: none;
+    padding: 0;
+}
+
+ul#todo-items li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* 캘린더 스타일 */
+#calendar {
+    height: 250px;
+    background-color: #ececec;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+#add-event-btn {
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* 푸터 스타일 */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer .footer-nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+footer .footer-nav ul li {
+    margin: 0 15px;
+}
+
+footer .footer-nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.header {
+    display: inline;
+}
+
+#main {
+    height: 600px;
+}
