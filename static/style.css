@@ -55,10 +55,11 @@ ul#todo-items li {
 
 /* 캘린더 스타일 */
 #calendar {
-    height: 250px;
+    height: 90%;
     background-color: #ececec;
     border-radius: 8px;
     margin-bottom: 15px;
+
 }
 
 #add-event-btn {
