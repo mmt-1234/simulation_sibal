@@ -4,6 +4,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+    height:100%;
 }
 
 
@@ -98,5 +99,5 @@ footer .footer-nav ul li a {
 }
 
 #main {
-    height: 600px;
+    height: 100%;
 }
